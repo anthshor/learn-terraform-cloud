@@ -24,6 +24,6 @@ resource "aws_instance" "ubuntu" {
 
   tags = {
     Name = var.instance_name
-    Owner = "acme v2"
+    Owner = "roadrunner"
   }
 }
